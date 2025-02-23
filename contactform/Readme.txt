@@ -1,1 +1,0 @@
-https://hwkh3sxtore6r6cwgptpstv4dyjs4rfewe2ozrpthusdoryzzgja.us-west1-b.resources.bumper-boats-00.services.qwiklabs.com/dashboards/1

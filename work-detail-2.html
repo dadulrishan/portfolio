@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="icon" type="image/x-icon" href="assets/imgs/.png">
+
+
+    <title>Dadul Rishan Portfolio</title>
+
+
+    <link rel="stylesheet"
+        href="../../../maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&amp;family=Inter+Tight:ital,wght@0,100..900;1,100..900&amp;display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <div id="magic-cursor">
+        <div id="ball"></div>
+    </div>
+
+
+
+    <div class="preloader-wrap">
+        <div class="loader">
+            <img src="assets/imgs/loader-2.gif" alt="loader">
+        </div>
+    </div>
+
+    <a href="assets/imgs/Dadul Rishan Resume.pdf" target="_blank">
+        <div id="customizeButtons">
+
+            <cr-button id="customizeButton" class="customize-button d-flex" aria-pressed="false">
+                <div id="customizeIcon" class="customize-icon cr-icon" slot="prefix-icon"><img width="20" class="me-2"
+                        src="assets/imgs/down.png"></div>
+                <div id="customizeText" class="customize-text">
+                    Download Resume
+                </div>
+            </cr-button>
+        </div>
+    </a>
+
+    <main class="portfolio-main work-detail-page">
+
+
+        <div class="popup-menu-wrap">
+            <div class="popup-menu-header">
+                <div class="local-temperature">
+                    <a href="index.html"><span>Local/</span><span id="coordinates"></span></a>
+                </div>
+
+                <div class="popup-menu-close-btn">
+                    <div class="icon">
+                        <svg width="24px" height="24px" stroke-width="1.5" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" color="rgba(214, 214, 215, 0.7)">
+                            <path d="M6 12h6m6 0h-6m0 0V6m0 6v6" stroke="currentColor" stroke-linecap="round"
+                                stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="right text-right">
+                    <a href="contact.html" class="theme-btn">Schedule a call</a>
+                </div>
+            </div>
+            <div class="popup-menu">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">
+                                <span class="count">(1)</span>
+                                <span>Home</span>
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="work.html">
+                                <span class="count">(2)</span>
+                                <span>Work</span>
+                                <span>Work</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">
+                                <span class="count">(5)</span>
+                                <span>Contact</span>
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="popup-menu-footer">
+                <div class="copyright">
+                    <p>&copy;2024 ALL RIGHTS RESERVED</p>
+
+                    <ul class="social-links">
+                        <li>
+                            <a href="https://www.linkedin.com/in/dadul-rishan/" target="_blank">LinkedIn <svg
+                                    xmlns="http://www.w3.org/2000/svg" focusable="false" viewBox="0 0 24 24"
+                                    color="rgb(29, 29, 31)">
+                                    <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z">
+                                    </path>
+                                </svg></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/dadulrishan" target="_blank">Github <svg
+                                    xmlns="http://www.w3.org/2000/svg" focusable="false" viewBox="0 0 24 24"
+                                    color="rgb(29, 29, 31)">
+                                    <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z">
+                                    </path>
+                                </svg></a>
+                        </li>
+                        <li>
+                            <a href="mailto:dadulrishan@gmail.com" target="_blank">Email <svg
+                                    xmlns="http://www.w3.org/2000/svg" focusable="false" viewBox="0 0 24 24"
+                                    color="rgb(29, 29, 31)">
+                                    <path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z">
+                                    </path>
+                                </svg></a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="smooth-wrapper">
+            <div id="smooth-content">
+
+
+                <section class="hero-sec hero-sec3">
+
+
+                    <header class="header-wrap scroll-animation" data-animation="slide_up">
+                        <div class="custom-row">
+
+
+                            <div class="header-local-time-box">
+                                <a href="index.html"><span>Local/</span></a>
+                                <span id="realtime">00:00</span>
+                            </div>
+
+                            <div class="header-middle">
+                                <div class="humberg-menu">
+                                    <a href="contact.html">
+                                        <?xml version="1.0" encoding="UTF-8"?>
+                                        <svg width="30px" height="30px" viewBox="0 0 24 24" stroke-width="1.5"
+                                            fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000">
+                                            <path d="M9 9L13.5 12L18 9" stroke="#000000" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M3 13.5H5" stroke="#000000" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path d="M1 10.5H5" stroke="#000000" stroke-width="1.5"
+                                                stroke-linecap="round" stroke-linejoin="round"></path>
+                                            <path
+                                                d="M5 7.5V7C5 5.89543 5.89543 5 7 5H20C21.1046 5 22 5.89543 22 7V17C22 18.1046 21.1046 19 20 19H7C5.89543 19 5 18.1046 5 17V16.5"
+                                                stroke="#000000" stroke-width="1.5" stroke-linecap="round"></path>
+                                        </svg>
+                                    </a>
+
+                                </div>
+                            </div>
+
+
+                            <div class="header-right">
+                                <a href="#" class="theme-btn">Navigate Here</a>
+                            </div>
+
+                        </div>
+                    </header>
+
+
+                </section>
+
+
+
+
+                <section class="work-detail-header-infos scroll-animation" data-animation="slide_down2">
+                    <div class="work-detail-header-left">
+                        <h1>AI Emotion
+                            Insights for Billboard
+                            Advertising Success</h1>
+                        <p>Developed an AI-enhanced emotion recognition system using a pre-trained VGG16 model on the
+                            FER-2013 dataset, achieving 80% accuracy with advanced data augmentation and hyperparameter
+                            tuning.
+                            Designed interactive visualizations and a scalable, cloud-integrated real-time pipeline to
+                            drive data-driven insights for enhanced audience engagement.</p>
+                    </div>
+                    <div class="work-detail-header-right">
+                        <ul>
+                            <li><span>Project</span> Masters Dissertation</li>
+                            <li><span>YEAR</span>Jan 2025</li>
+                            <li><span>CATEGORY</span> AI System</li>
+                            <li><span>STATUS</span> <a href="#">Completed</a></li>
+                        </ul>
+                    </div>
+                </section>
+
+                <div class="featured-cards-container"
+                    style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+
+                    <div class="featured-card">
+                        <div class="img-box">
+                            <img src="assets/imgs/New/Billboard.jpg" alt="Work">
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+                <div class="work-detail2-content-wrap">
+                    <div class="work-detail2-content-box">
+                        <div class="left">
+                            <h4>RESEARCH</h4>
+                        </div>
+                        <div class="right">
+                            <p class="scroll-animation" data-animation="slide_down2">In this project, I delved into
+                                advanced deep learning techniques for emotion recognition while critically analyzing the
+                                FER-2013 dataset. I reviewed cutting-edge CNN architectures and effective preprocessing
+                                methods to address inherent dataset biases. This research laid the foundation for a 15%
+                                improvement in classification accuracy through targeted data augmentation and
+                                normalization.</p>
+                        </div>
+                    </div>
+                    <div class="work-detail2-content-box">
+                        <div class="left">
+                            <h4>DESIGN</h4>
+                        </div>
+                        <div class="right">
+                            <p class="scroll-animation" data-animation="slide_down2">I crafted a robust system
+                                architecture using a pre-trained VGG16 model enhanced with dropout layers and adaptive
+                                learning rates. The design process focused on optimizing hyperparameters to maximize
+                                model performance. Additionally, I developed interactive visualizations with Matplotlib
+                                and Seaborn to clearly communicate data distributions and performance trends.</p>
+                        </div>
+                    </div>
+                    <div class="work-detail2-content-box">
+                        <div class="left">
+                            <h4>DEVELOPMENT</h4>
+                        </div>
+                        <div class="right">
+                            <p class="scroll-animation" data-animation="slide_down2">The system was implemented using
+                                Python and TensorFlow, integrating comprehensive data augmentation and normalization
+                                techniques. I built a scalable, cloud-based pipeline that supports real-time emotion
+                                detection. Continuous cross-validation and performance monitoring ensured the system
+                                maintained an 80% accuracy rate.</p>
+                        </div>
+                    </div>
+                    <div class="work-detail2-content-box">
+                        <div class="left">
+                            <h4>Concept</h4>
+                        </div>
+                        <div class="right">
+                            <p class="scroll-animation" data-animation="slide_down2">The core concept was to decode
+                                human emotions accurately using state-of-the-art deep learning methodologies. I aimed to
+                                transform raw emotional data into actionable insights for enhanced audience engagement.
+                                By merging rigorous research, innovative design, and robust development, the project set
+                                a new standard for real-time emotion analytics.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <div class="work-detail-text-anim-wrap">
+                    <ul>
+                        <li>MORE WORKS <span>MORE WORKS</span></li>
+                        <li>MORE WORKS <span>MORE WORKS</span></li>
+                        <li>MORE WORKS <span>MORE WORKS</span></li>
+                        <li>MORE WORKS <span>MORE WORKS</span></li>
+                    </ul>
+                </div>
+
+
+
+
+                <div class="work-detail-featured-work-wrap">
+                    <div class="featured-work-lists">
+
+
+                        <div class="featured-card">
+                            <a class="link-overlay" href="https://www.mashtree.com/"></a>
+                            <div class="img-box">
+                                <img src="assets/imgs/New/Screenshot 2025-02-22 193040.png" alt="Work">
+                            </div>
+                            <div class="content">
+                                <div class="left">
+                                    <p class="title">Mashtree</p>
+                                    <p class="subtitle">FREELANCE</p>
+                                </div>
+                                <div class="right">
+                                    <span class="date">2024</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="featured-card">
+                            <a class="link-overlay" href="https://www.alkauntelecoms.com/"></a>
+                            <div class="img-box">
+                                <img src="assets/imgs/work-4.jpg" alt="Work">
+                            </div>
+                            <div class="content">
+                                <div class="left">
+                                    <p class="title">Alkauntelecoms</p>
+                                    <p class="subtitle">Website</p>
+                                </div>
+                                <div class="right">
+                                    <span class="date">2023</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+                <footer class="footer-area">
+                    <div class="footer-big-text">
+                        <span class="timeline-anim scroll-animation" data-animation="slide_down">DADUL RISHAN</span>
+                    </div>
+
+                    <div class="copyright">
+                        <p>© 2025 All RIght Reserved</p>
+                        <div class="right">
+                            <a href="#" id="back-to-top">GO BACK TO TOP</a>
+                        </div>
+                    </div>
+                </footer>
+
+
+
+            </div>
+        </div>
+
+
+
+
+    </main>
+
+
+
+
+
+
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/gsap.min.js"></script>
+    <script src="assets/js/ScrollTrigger.min.js"></script>
+    <script src="assets/js/ScrollToPlugin.min.js"></script>
+
+    <script src="assets/js/ScrollSmoother.min.js"></script>
+    <script src="assets/js/SplitText.min.js"></script>
+    <script src="assets/js/jarallax.js"></script>
+    <script src="assets/js/jarallax-element.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/themescroll.js"></script>
+</body>
+
+
+
+</html>
