@@ -494,6 +494,11 @@
     .about-bottom-content-wrap .img-box {
         height: 516px;
     }
+
+    .featured-card .content .title {
+        font-size: 17px;
+        line-height: 20px;
+    }
 }
 
 @keyframes workdetailsAnim2 {
